@@ -1,6 +1,9 @@
 from aiogram.fsm.state import StatesGroup, State
 
-class FormStateGroup(StatesGroup):
+
+class FormStatesGroup(StatesGroup):
     fill_name = State()
     fill_age = State()
+    fill_gender = State()
+    fill_description = State()
     upload_photo = State()
