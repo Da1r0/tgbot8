@@ -1,7 +1,7 @@
 from aiogram.types import BotCommand
 
-main_menu_command = [
-    BotCommand(command='/start', description='Перезапустить'),
-    BotCommand(command='/help', description='Помощь'),
-    BotCommand(command='/show', description='Данные')
+menu = [
+    BotCommand(command='/start', description='Запустить/перезапустить бота'),
+    BotCommand(command='/fillform', description="Заполнить анкету"),
+    BotCommand(command='/show', description='Посмотреть анкету')
 ]
